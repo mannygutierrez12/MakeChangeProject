@@ -5,8 +5,7 @@ public class MakeChange {
 	public static void main(String[] args) {
 
 		makeCalculations();
-		
-		
+
 		Scanner kb = new Scanner(System.in);
 		System.out.println("Do you want to do another calculation. Type (Y/y) or (N/n)?");
 		String calculateAgain = kb.next().toLowerCase();
@@ -24,7 +23,7 @@ public class MakeChange {
 		// The following variables handle the change based on the cost of the items and
 		// amount received from customer
 		Scanner kb = new Scanner(System.in);
-		
+
 		double price;
 		double customerPayment;
 		double totalChange;
